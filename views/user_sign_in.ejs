@@ -1,0 +1,44 @@
+<h1>Sign In</h1>
+<script src="https://kit.fontawesome.com/04ecede1a6.js" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="/css/sign_in_form.css">
+
+<div class="background">
+    <div class="shape"></div>
+    <div class="shape"></div>
+</div>
+
+<script src=
+"https://www.google.com/recaptcha/api.js" async defer>
+	</script>
+
+<div class="form">
+<form action="/users/create-session" method="POST">
+    <label for="email">email</label>
+    <input type="email" name="email" placeholder="Email"  required>
+    <label for="password">password</label>
+    <input type="password" name="password" placeholder="Password"  required>
+      <!-- div to show reCAPTCHA -->
+      <div class="g-recaptcha"
+      data-sitekey="6LesnLkhAAAAAL3vs0g3Sh2_Yr7qRRYRJOGOn8PB">
+  </div>
+    <input type="submit" value="Sign In">
+
+</form>
+
+<div class="social">
+<form action="/users/auth/google">
+    <div class="icon">
+        <i class="fa-brands fa-google"></i>    
+         <input type="submit"  value="Google Sign In/Sign Up" />
+</div>
+</form>
+
+
+<p>
+    <a href="/ForgotPassword/sendlink">Forgot Password?</a>
+</p>
+
+</div>
+</div>

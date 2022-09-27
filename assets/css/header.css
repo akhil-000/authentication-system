@@ -1,0 +1,12 @@
+
+    #layout-header nav .auth-links ul {
+      position:absolute;
+      right:0;
+      display: flex;
+      list-style: none; }
+      #layout-header nav .auth-links ul li {
+        margin-right: 10px; }
+    #layout-header nav a {
+      color: white;
+      text-decoration: none; }
+  
