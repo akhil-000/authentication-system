@@ -1,9 +1,6 @@
 # authentication-system
 
-
-# placement-cell
-
-<h2>placement-cell using MONGODB</h2>
+<h2>authentication-system using MONGODB, gmail API</h2>
 
 <br />1)Go to the NodeJS website and download NodeJS
 
